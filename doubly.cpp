@@ -11,6 +11,22 @@ class Doubly : public List {
     node* head;
     node* tail;
 
+    // helper functions
+    void addBetween(node* curr, node* node){
+
+    }
+
+    int removeBetween(node* curr){
+
+    }
+
+    node* traverseTail(int pos){
+
+    }
+
+    node* traverseHead(int pos){
+
+    }
     public:
 
     void addHead(int num) {
@@ -24,7 +40,7 @@ class Doubly : public List {
     void addAt(int num, int pos) {
 
     }
-    
+
     int removeHead(){
 
     }
